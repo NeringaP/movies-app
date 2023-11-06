@@ -1,0 +1,67 @@
+.background {
+  background-image: url("../resources/add-new-background.jpg");
+  background-position: bottom;
+}
+
+#bootstrap-overrides label {
+  color: white;
+  opacity: 75%;
+}
+
+#bootstrap-overrides h2 {
+  color: white;
+  opacity: 75%;
+}
+
+#bootstrap-overrides input {
+  background-color: black;
+  color: white;
+  opacity: 70%;
+  border: none;
+}
+
+#bootstrap-overrides .form-select, .invalid-feedback{
+  background-color: black;
+  border: none;
+  opacity: 70%;
+  color: white;
+}
+
+#bootstrap-overrides .invalid-feedback {
+color: #dc3545;
+}
+
+img {
+  height: 75px;
+  color: white;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 60%;
+  height: 360px;
+  width: 250px;
+}
+
+#image-input {
+  height: 360px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+#bootstrap-overrides .btn-primary {
+  background-color: #3e4260;
+  margin-top: 1vh;
+}

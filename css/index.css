@@ -1,0 +1,14 @@
+.background {
+  background-image: url("../resources/index-background.jpg");
+}
+
+#bootstrap-overrides h1 {
+  color: white;
+  opacity: 85%;
+  margin-top: 12vh;
+  margin-bottom: 3vh;
+}
+
+#bootstrap-overrides .btn-primary {
+  background-color: #703968;
+}

@@ -1,0 +1,95 @@
+.background {
+  background-image: url("../resources/gallery-background.jpg");
+  background-position: bottom;
+}
+#bootstrap-overrides h3 {
+  color: white;
+  opacity: 75%;
+}
+
+#bootstrap-overrides #gallery-container {
+  background-color: rgba(0, 0, 0, 0.66);
+  border-bottom: 2vh solid rgba(0, 0, 0, 0);
+}
+
+#bootstrap-overrides #title-container {
+  background-color: rgba(0, 0, 0, 0.66);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 2vh;
+}
+
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #40495f;
+  color: white;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.image-img {
+  display: block;
+  width: 100%;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.image-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
